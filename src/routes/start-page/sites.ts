@@ -1,6 +1,7 @@
 export type PageType = {
 	title: string;
 	url: string;
+	icon?: string;
 };
 
 export type SitesType = {
@@ -15,7 +16,8 @@ const sites: SitesType = {
 		},
 		{
 			title: 'PC Gamer',
-			url: 'https://www.pcgamer.com/'
+			url: 'https://www.pcgamer.com/',
+			icon: 'icon-keyboard'
 		},
 		{
 			title: 'PC Games N',
@@ -23,19 +25,23 @@ const sites: SitesType = {
 		},
 		{
 			title: 'Reddit',
-			url: 'https://www.reddit.com/'
+			url: 'https://www.reddit.com/',
+			icon: 'icon-reddit'
 		},
 		{
 			title: 'Youtube',
-			url: 'https://www.youtube.com/'
+			url: 'https://www.youtube.com/',
+			icon: 'icon-youtube'
 		},
 		{
 			title: 'W Underground',
-			url: 'https://www.wunderground.com/'
+			url: 'https://www.wunderground.com/',
+			icon: 'icon-onedrive'
 		},
 		{
 			title: 'Overreacted',
-			url: 'https://overreacted.io/'
+			url: 'https://overreacted.io/',
+			icon: 'icon-embed2'
 		}
 	]
 };
